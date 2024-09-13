@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #282c34;
+    font-family: Arial, sans-serif;
+}
+.clockHolder{
+    height: 180px;
+    width: 500px;
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+    border-bottom: 5px solid red;
+    border-top: 5px solid red;
+    border-left: 2px dotted red;
+    border-right: 2px dotted red;
+}
+#clock,#date{
+    gap: 0px;
+    color:#61dafb;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
